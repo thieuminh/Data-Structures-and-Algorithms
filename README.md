@@ -67,6 +67,7 @@ cmd /c "python .\main.py < input.txt"
 
 ---
 
+# Vietnamese Version
 ## 1) Đề bài
 
 Cho 1 đt ko có trọng số ( vô hướng hoặc có hướng)
