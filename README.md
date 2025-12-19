@@ -17,18 +17,16 @@ In `CTDLVGT/Graph/`:
 ## 3) Input format
 
 - Line 1: `n m`
-- Line 2: `t`
-  - `0`: undirected graph
-  - `1`: directed graph
 - Next `m` lines: `u v`
 
-Note (directed graphs): to keep the solution basic with DFS, the program computes **weakly connected components**
-(it ignores edge directions and runs DFS like an undirected graph).
+Optional (legacy input): you may still provide an extra line `t` (0/1) after `n m`.
+The program will **ignore** it and still process the graph as **undirected**.
+
+Note: the program always processes the graph **as undirected** (it ignores edge directions if your input is directed).
 
 ### Undirected example
 ```
 6 3
-0
 1 2
 2 3
 5 6
@@ -37,7 +35,6 @@ Note (directed graphs): to keep the solution basic with DFS, the program compute
 ### Directed example
 ```
 6 5
-1
 1 2
 2 3
 4 5
@@ -87,18 +84,16 @@ Trong `CTDLVGT/Graph/`:
 Áp dụng cho cả vô hướng và có hướng.
 
 - Dòng 1: `n m`
-- Dòng 2: `t`
-  - `0`: đồ thị vô hướng
-  - `1`: đồ thị có hướng
 - `m` dòng tiếp: `u v`
 
-Ghi chú cho đồ thị có hướng: để dùng DFS cơ bản, chương trình tính **liên thông yếu**
-(tức là **bỏ hướng** các cạnh rồi chạy DFS như vô hướng).
+Tùy chọn (input cũ): bạn có thể nhập thêm 1 dòng `t` (0/1) sau `n m`.
+Chương trình sẽ **bỏ qua** dòng này và vẫn xử lý đồ thị **như vô hướng**.
+
+Ghi chú: chương trình luôn xử lý đồ thị **như vô hướng** (nếu input là có hướng thì coi như bỏ hướng).
 
 ### Ví dụ vô hướng
 ```
 6 3
-0
 1 2
 2 3
 5 6
@@ -107,7 +102,6 @@ Ghi chú cho đồ thị có hướng: để dùng DFS cơ bản, chương trìn
 ### Ví dụ có hướng
 ```
 6 5
-1
 1 2
 2 3
 4 5
