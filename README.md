@@ -10,7 +10,7 @@ Given an unweighted graph (undirected or directed):
 
 ## 2) Files
 
-In `CTDLVGT/Graph/`:
+In `Data-Structures-and-Algorithms`:
 - `graph_dfs_homework.py`: adjacency list + a separate `dfs()` function + solutions for tasks 1–4
 - `main.py`: reads input and prints results for each task
 
