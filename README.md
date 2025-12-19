@@ -75,7 +75,7 @@ Cho 1 đt ko có trọng số ( vô hướng hoặc có hướng)
 
 ## 2) File trong thư mục
 
-Trong `CTDLVGT/Graph/`:
+Trong `Data-Structures-and-Algorithms`:
 - `graph_dfs_homework.py`: danh sách kề + hàm `dfs()` riêng + hàm giải 4 bài
 - `main.py`: đọc input và in kết quả theo từng bài
 
